@@ -12,7 +12,7 @@ class UsersController < ApplicationController
     end
 
     def userparams
-        params.require(:user).permit(:initials)
+        params.require(:user).permit(:initials, :level)
     end
 
 end
