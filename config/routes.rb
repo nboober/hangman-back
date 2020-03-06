@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-  resources :words_apis
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  # resources :words
+
+  get "/word", to: "word#getword"
+
 end

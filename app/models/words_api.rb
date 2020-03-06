@@ -1,2 +1,0 @@
-class WordsApi < ApplicationRecord
-end
